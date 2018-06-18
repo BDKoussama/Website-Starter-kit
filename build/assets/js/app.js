@@ -1,1 +1,1 @@
-window.sr=ScrollReveal();
+console.log('test js');
