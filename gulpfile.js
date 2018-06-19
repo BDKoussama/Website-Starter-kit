@@ -10,7 +10,7 @@ var autoprefixer = require('gulp-autoprefixer'),
     sass = require('gulp-sass'),
     sourcemaps = require('gulp-sourcemaps'),
     rename = require('gulp-rename'),
-    uglify = require('gulp-uglify'),
+    uglify = require('gulp-uglify-es').default,
     images = require('gulp-imagemin'),
     browserSync = require('browser-sync').create();
 
